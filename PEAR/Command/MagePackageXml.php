@@ -6,9 +6,9 @@ error_reporting(E_ALL & ~E_NOTICE);
 define('DS', DIRECTORY_SEPARATOR);
 define('PS', PATH_SEPARATOR);
 
-require_once 'PEAR/Command/Common.php';
-require_once 'PEAR/Command/Mage.php';
-require_once 'PEAR/PackageFileManager2.php';
+require_once 'PEAR'.DS.'Command'.DS.'Common.php';
+require_once 'PEAR'.DS.'Command'.DS.'Mage.php';
+require_once 'PEAR'.DS.'PackageFileManager2.php';
 
 class PEAR_Command_MagePackageXml extends PEAR_Command_Mage
 {
