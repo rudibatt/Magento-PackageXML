@@ -4,7 +4,7 @@
     http://pear.php.net/dtd/package-2.0
     http://pear.php.net/dtd/package-2.0.xsd">
  <name>Mage_Package_Xml</name>
- <channel>connect.flagbit.com</channel>
+ <channel>__uri</channel>
  <summary>Files that needs to be in PEAR library such as roles, tasks and commands</summary>
  <description>updates content from existing package.xml files</description>
  <lead>
@@ -49,6 +49,15 @@
     <name>PEAR</name>
     <channel>pear.php.net</channel>
     <min>1.6.2</min>
+   </package>
+   <package>
+	<name>PEAR_PackageFileManager2</name>
+    <channel>pear.php.net</channel>
+	<min>1.0</min>
+   </package>
+   <package>
+	<name>Faett_PEAR</name>
+	<channel>connect.faett.net/community</channel>
    </package>
   </required>
  </dependencies>
